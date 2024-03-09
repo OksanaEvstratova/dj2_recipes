@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<h1>Рецепты</h1>
+<ul>
+    {% for page in pages %}
+        <li><a href="{{ page }}">{{ page }}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>
